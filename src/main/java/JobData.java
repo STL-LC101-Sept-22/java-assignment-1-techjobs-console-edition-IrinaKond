@@ -108,6 +108,7 @@ public class JobData {
 
                 if(aValue.toLowerCase().contains(value.toLowerCase())) {
                     jobs.add(job);
+                    break;
                 }
             }
         }
